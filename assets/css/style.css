@@ -203,9 +203,9 @@ p {
 }
 
 @media (max-width: 1280px) {
-  #header h1 a, #header h1 a:hover {
+  /*#header h1 a, #header h1 a:hover {
     font-size: 30px;
-  }
+  }*/
   #header .logo-icon {
     width: 50px;  
     top: 15px;
@@ -651,6 +651,7 @@ section .container {
 }
 
 .about-me p.design {
+  padding: 0 2rem;
   text-align: center;
   color: #8e257a;
   /*background: -webkit-linear-gradient(-360deg, #f18500 20%, #8e257a 80%);
